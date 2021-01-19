@@ -1,0 +1,28 @@
+{
+  "name": "cypress-lambda",
+  "version": "1.0.0",
+  "description": "Running cypress tests in lambda",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchelwalker/cypress-lambda"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitchelwalker/cypress-lambda"
+  },
+  "devDependencies": {
+    "cypress": "6.2.1"
+  }
+}
